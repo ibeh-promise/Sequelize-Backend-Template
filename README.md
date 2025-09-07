@@ -44,25 +44,25 @@ server.js → App entry point
 ### 1. Clone repository
 ```bash
 git clone https://github.com/yourusername/sequelize-backend-template.git
-cd sequelize-backend-template
+cd sequelize-backend-template ```
 
-Install dependencies
-npm install
+### 2. Install dependencies
+``` npm install```
 
-3. Configure environment variables
+### 3. Configure environment variables
 
-Create a .env file in the project root:
+```Create a .env file in the project root:
 
 DB_HOST=localhost
 DB_USER=yourusername
 DB_PASS=yourpassword
 DB_NAME=yourdbname
 DB_DIALECT=postgres
-PORT=5000
+PORT=5000`
 
-4. Run migrations & seeders
-npx sequelize db:migrate
-npx sequelize db:seed:all
+### 4. Run migrations & seeders
+```npx sequelize db:migrate
+npx sequelize db:seed:all```
 
 5. Start development server
 npm run dev
