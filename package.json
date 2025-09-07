@@ -1,4 +1,13 @@
 {
+  "name": "create-sequelize-backend",
+  "version": "1.0.0",
+  "description": "CLI to scaffold a Sequelize + Express backend template",
+  "bin": {
+    "create-sequelize-backend": "bin/index.js"
+  },
+  "keywords": ["sequelize", "express", "backend", "template", "starter"],
+  "author": "Promise Ibeh",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
