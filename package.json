@@ -5,7 +5,13 @@
   "bin": {
     "create-sequelize-backend": "bin/index.js"
   },
-  "keywords": ["sequelize", "express", "backend", "template", "starter"],
+  "keywords": [
+    "sequelize",
+    "express",
+    "backend",
+    "template",
+    "starter"
+  ],
   "author": "Promise Ibeh",
   "license": "MIT",
   "dependencies": {
